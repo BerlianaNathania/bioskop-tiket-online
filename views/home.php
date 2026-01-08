@@ -1,4 +1,4 @@
-<h3 class="agile_w3_title" style="text-align: center;"> Top <span>Movies</span></h3>
+<h3 class="agile_w3_title" style="text-align: center;"> Top <span style = "background-color:#021fa3">Movies</span></h3>
 	<!--/movies-->				
 	<div class="w3_agile_latest_movies">
 		<div id="owl-demo" class="owl-carousel owl-theme">
@@ -30,7 +30,7 @@
 	</div>	
 </div>
 
- <h3 class="agile_w3_title" style="text-align: center;">ALL <span>Movies</span> </h3>
+ <h3 class="agile_w3_title" style="text-align: center;">ALL <span style = "background-color:#021fa3">Movies</span> </h3>
 				<!--/requested-movies-->
 <div class="wthree_agile-requested-movies">
 	<?php
