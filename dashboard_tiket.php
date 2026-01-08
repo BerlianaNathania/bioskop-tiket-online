@@ -1,11 +1,25 @@
 <?php 
 	include_once "config/crud.php";
-	session_start();
 	if (!isset($_SESSION['id'])) {
-		echo "<script>alert('Harap login terlebih dahulu');document.location='index.php'</script>";
-		exit;
-	}
-	$id_member = $_SESSION['id'];
+    echo "<!DOCTYPE html>
+    <html>
+    <head>
+        <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
+    </head>
+    <body>
+        <script>
+            Swal.fire({
+                icon: 'warning',
+                title: 'Akses Ditolak',
+                text: 'Harap login terlebih dahulu'
+            }).then(function() {
+                window.location.href = 'index.php';
+            });
+        </script>
+    </body>
+    </html>";
+    exit;
+}
 ?>
 <!DOCTYPE html>
 <html>

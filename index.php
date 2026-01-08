@@ -27,13 +27,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Itpln Movies</title>
+<title>Movies Mania</title>
 
 <link rel="stylesheet" type="text/css" href="assets/css/film.css">
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Itpln Movies" />
+<meta name="keywords" content="Movies Mania" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
@@ -74,7 +74,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<h1><a  href="index.php"><span>I</span>tpln <span>M</span>ovies</a></h1>
+						<h1><a  href="index.php"><span>M</span>ovies <span>M</span>ania</a></h1>
 					</div>
 					<!-- navbar-header -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -297,9 +297,9 @@
 				 ?>	
 			</div>
 				
-			<div class="w3agile_footer_copy" >
-				    <p>© 2026 Itpln Movies. All rights reserved | Design by CREATE TABLE </a></p>
-			</div>
+			<div class="w3agile_footer_copy" style="background-color:#021fa3;">
+    <p>© 2026 ITPLN Movies. All rights reserved | Design by CREATE TABLE</p>
+</div>
 		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
 <script src="assets/bootstrap/js/jquery-1.11.1.min.js"></script>
